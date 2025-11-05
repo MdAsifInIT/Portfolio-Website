@@ -12,7 +12,7 @@ export const socialLinks = [
   { name: "GitHub", url: "https://github.com/mdasifinit", icon: "Github" },
   {
     name: "LinkedIn",
-    url: "https://linkedin.com/in/mdasifinit",
+    url: "https://linkedin.com/mdasifinit",
     icon: "Linkedin",
   },
   { name: "Twitter", url: "https://twitter.com/mdasifinit", icon: "Twitter" },
@@ -36,7 +36,7 @@ export const projects = [
     image:
       "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop",
     liveUrl: "https://devflow-demo.com",
-    githubUrl: "https://github.com/alexmorgan/devflow",
+    githubUrl: "https://github.com/mdasifinit",
     featured: true,
     details: {
       problem:
@@ -62,7 +62,7 @@ export const projects = [
     image:
       "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&h=600&fit=crop",
     liveUrl: null,
-    githubUrl: "https://github.com/alexmorgan/packagekit",
+    githubUrl: "https://github.com/mdasifinit",
     featured: true,
     details: {
       problem:
@@ -87,7 +87,7 @@ export const projects = [
     image:
       "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop",
     liveUrl: "https://apiforge.dev",
-    githubUrl: "https://github.com/alexmorgan/api-forge",
+    githubUrl: "https://github.com/mdasifinit",
     featured: false,
   },
   {
@@ -100,7 +100,7 @@ export const projects = [
     image:
       "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=800&h=600&fit=crop",
     liveUrl: null,
-    githubUrl: "https://github.com/alexmorgan/deployscript",
+    githubUrl: "https://github.com/mdasifinit",
     featured: false,
   },
   {
@@ -113,7 +113,7 @@ export const projects = [
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
     liveUrl: "https://dashboard-kit-demo.com",
-    githubUrl: "https://github.com/alexmorgan/react-dashboard-kit",
+    githubUrl: "https://github.com/mdasifinit",
     featured: true,
   },
   {
@@ -126,7 +126,7 @@ export const projects = [
     image:
       "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=600&fit=crop",
     liveUrl: null,
-    githubUrl: "https://github.com/alexmorgan/cloudsync-cli",
+    githubUrl: "https://github.com/mdasifinit",
     featured: false,
   },
 ];
@@ -142,7 +142,7 @@ export const openSourceRepos = [
     forks: 890,
     topics: ["awesome-list", "developer-tools", "resources"],
     lastUpdated: "2024-01-15",
-    url: "https://github.com/alexmorgan/awesome-dev-tools",
+    url: "https://github.com/mdasifinit",
   },
   {
     id: 2,
@@ -154,7 +154,7 @@ export const openSourceRepos = [
     forks: 210,
     topics: ["nodejs", "router", "http", "typescript"],
     lastUpdated: "2024-01-20",
-    url: "https://github.com/alexmorgan/fast-router",
+    url: "https://github.com/mdasifinit",
   },
   {
     id: 3,
@@ -166,7 +166,7 @@ export const openSourceRepos = [
     forks: 145,
     topics: ["react", "state-management", "hooks"],
     lastUpdated: "2024-01-18",
-    url: "https://github.com/alexmorgan/react-state-machine",
+    url: "https://github.com/amdasifinit",
   },
   {
     id: 4,
@@ -178,7 +178,7 @@ export const openSourceRepos = [
     forks: 320,
     topics: ["docker", "docker-compose", "devops"],
     lastUpdated: "2024-01-12",
-    url: "https://github.com/alexmorgan/docker-compose-templates",
+    url: "https://github.com/mdasifinit",
   },
   {
     id: 5,
@@ -190,7 +190,7 @@ export const openSourceRepos = [
     forks: 67,
     topics: ["json", "validation", "schema"],
     lastUpdated: "2024-01-10",
-    url: "https://github.com/alexmorgan/json-schema-validator",
+    url: "https://github.com/mdasifinit",
   },
 ];
 
