@@ -3,7 +3,7 @@
 export const personalInfo = {
   name: "Md Asif",
   title: "Full-Stack Developer & Automation Enthusiast",
-  bio: "I automate workflows,build fast, scalable applications for businessess. Passionate about clean code, AI tools, and creating delightful user experiences.",
+  bio: "I automate workflows and build fast, scalable applications for businesses. Passionate about clean code, AI tools, and creating delightful user experiences.",
   email: "mdasifinit@gmail.com",
   location: "Bengaluru, IN",
 };
@@ -31,7 +31,7 @@ export const projects = [
     title: "Packaging Workflow Automation",
     category: "DevOps",
     description:
-      "AI-assisted Windows application packaging pipeline that ingests installers, generates PSADT scripts, opens PRs, and verifies installs on ephemeral VMs via Jenkins.",
+      "AI-assisted Windows application packaging pipeline that generates PSADT scripts, opens PRs, and verifies installs on ephemeral VMs.",
     techStack: [
       "Jenkins",
       "n8n",
@@ -43,7 +43,7 @@ export const projects = [
     ],
     image:
       "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop",
-    liveUrl: "#",
+    liveUrl: null,
     githubUrl: "https://github.com/mdasifinit/Packaging-Workflow-Automation",
     featured: true,
     details: {
