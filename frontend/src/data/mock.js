@@ -2,10 +2,10 @@
 
 export const personalInfo = {
   name: "Md Asif",
-  title: "Full-Stack Developer & Open Source Enthusiast",
-  bio: "I build fast, scalable applications and contribute to open source. Passionate about clean code, developer tools, and creating delightful user experiences.",
+  title: "Full-Stack Developer & Automation Enthusiast",
+  bio: "I automate workflows,build fast, scalable applications for businessess. Passionate about clean code, AI tools, and creating delightful user experiences.",
   email: "mdasifinit@gmail.com",
-  location: "mdasifinit, IN",
+  location: "Bengaluru, IN",
 };
 
 export const socialLinks = [
@@ -28,28 +28,38 @@ export const socialLinks = [
 export const projects = [
   {
     id: 1,
-    title: "DevFlow",
-    category: "Apps",
+    title: "Packaging Workflow Automation",
+    category: "DevOps",
     description:
-      "A collaborative development workflow platform with real-time code reviews and automated testing pipelines.",
-    techStack: ["React", "Node.js", "PostgreSQL", "Docker", "WebSockets"],
+      "AI-assisted Windows application packaging pipeline that ingests installers, generates PSADT scripts, opens PRs, and verifies installs on ephemeral VMs via Jenkins.",
+    techStack: [
+      "Jenkins",
+      "n8n",
+      "PowerShell 7",
+      "PSAppDeployToolkit",
+      "OpenAI API",
+      "JSON Schema",
+      "GitHub",
+    ],
     image:
       "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop",
-    liveUrl: "https://devflow-demo.com",
-    githubUrl: "https://github.com/mdasifinit",
+    liveUrl: "#",
+    githubUrl: "https://github.com/mdasifinit/Packaging-Workflow-Automation",
     featured: true,
     details: {
       problem:
-        "Development teams struggle with fragmented code review processes and manual testing workflows.",
+        "Manual app packaging is slow, inconsistent, and error-prone—silent switches and post-install verification consume significant engineer time.",
       role: "Lead Developer & Architect",
       features: [
-        "Real-time collaboration",
-        "Automated CI/CD pipelines",
-        "Smart code analysis",
-        "Team analytics dashboard",
+        "n8n webhook intake with deterministic installer classification",
+        "LLM-generated manifest and silent-install candidates (temperature 0, schema-validated)",
+        "PSADT Deploy-Application.ps1 generation with verification ladder",
+        "Automated branch/PR creation with labels and audit artifacts",
+        "Jenkins pipeline on Windows agents/ephemeral VMs",
+        "Layered verification via run-candidate-tests.ps1 (MSI code, paths, shortcuts, smoke)",
       ],
       outcomes:
-        "Reduced code review time by 40% and improved team productivity by 25%.",
+        "Standardized, auditable packaging with reproducible CI; safe auto-merge gated by schema validation, confidence thresholds, and VM verification.",
     },
   },
   {
