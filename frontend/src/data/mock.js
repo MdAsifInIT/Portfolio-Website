@@ -233,31 +233,31 @@ export const skills = {
 
 export const timeline = [
   {
+    year: "2024-2028",
+    title: "BSc Design & Computing",
+    company: "BITS Pilani",
+    description:
+      "Pursuing undergraduate studies with a focus on software development, algorithms, and systems design.",
+  },
+  {
     year: "2023-Present",
-    title: "Senior Full-Stack Developer",
-    company: "TechFlow Inc.",
+    title: "Analyst",
+    company: "HCL Tech",
     description:
-      "Leading development of cloud-native applications and mentoring junior developers.",
+      "Automating IT workflows and managing application lifecycle for enterprise clients.",
+    },
+  {
+    year: "2022-2023",
+    title: "Intern",
+    company: "HCL Tech",
+    description: "Learnt various IT fundamentals including networking, OS and hypervisors.",
   },
   {
-    year: "2021-2023",
-    title: "Full-Stack Developer",
-    company: "StartupXYZ",
-    description: "Built scalable microservices architecture serving 1M+ users.",
-  },
-  {
-    year: "2019-2021",
-    title: "Software Engineer",
-    company: "DevCorp",
+    year: "2022",
+    title: "Student",
+    company: "DAV",
     description:
-      "Developed internal tools and automation scripts, reducing deployment time by 60%.",
-  },
-  {
-    year: "2015-2019",
-    title: "B.S. Computer Science",
-    company: "University of Technology",
-    description:
-      "Focus on software engineering, algorithms, and distributed systems.",
+      "Compelted higher secondary education with a focus on science stream.",
   },
 ];
 
